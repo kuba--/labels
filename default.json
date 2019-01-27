@@ -1,0 +1,109 @@
+[
+	{
+		"name": "EPIC",
+		"color": "e58e85"
+	},
+	{
+		"name": "blocked",
+		"color": "d73a4a",
+		"description": "Some other issue is blocking this"
+	},
+	{
+		"name": "bug",
+		"color": "d73a4a",
+		"description": "Something isn't working"
+	},
+	{
+		"name": "documentation",
+		"color": "76e0b7",
+		"description": "This is a documentation issue or pull request"
+	},
+	{
+		"name": "duplicate",
+		"color": "cfd3d7",
+		"description": "This issue or pull request already exists"
+	},
+	{
+		"name": "empathy-sessions",
+		"color": "6cef2f",
+		"description": "Issue filed as as part of empathy sessions"
+	},
+	{
+		"name": "enhancement",
+		"color": "a2eeef",
+		"description": "New feature or request"
+	},
+	{
+		"name": "feature",
+		"color": "fbca04"
+	},
+	{
+		"name": "feature request",
+		"color": "f7d7b9"
+	},
+	{
+		"name": "hacktoberfest",
+		"color": "ea7e4f",
+		"description": "Ready to pick for Hacktoberfest"
+	},
+	{
+		"name": "help wanted",
+		"color": "008672",
+		"description": "Extra attention is needed"
+	},
+	{
+		"name": "invalid",
+		"color": "e4e669",
+		"description": "This doesn't seem right"
+	},
+	{
+		"name": "performance",
+		"color": "ffc97f",
+		"description": "Performance improvements"
+	},
+	{
+		"name": "proposal",
+		"color": "f98886",
+		"description": "proposal for new additions or changes"
+	},
+	{
+		"name": "question",
+		"color": "d876e3",
+		"description": "Further information is requested"
+	},
+	{
+		"name": "research",
+		"color": "f780e3",
+		"description": "Something that requires research"
+	},
+	{
+		"name": "wip",
+		"color": "000000",
+		"description": "work in progress"
+	},
+	{
+		"name": "wontfix",
+		"color": "ffffff",
+		"description": "This will not be worked on"
+	},
+	{
+		"name": "3rd-party",
+		"color": "fce42f",
+		"description": "Third party compatibility"
+	},
+	{
+		"name": "good first issue",
+		"color": "7057ff",
+		"description": "Good for newcomers"
+	},
+	{
+		"name": "has pr",
+		"color": "c2e0c6",
+		"description": "Already has a PR"
+	},
+	{
+		"name": "mystery",
+		"color": "000000",
+		"description": "Nobody knows what's going on..."
+	}
+]
