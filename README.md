@@ -3,6 +3,7 @@
 The tool lets you update label's color and/or description for your repo.
 
 ```sh
+GO111MODULE=on go build .
 usage: ./labels <list | update> -r "<org/repo>" [options]
 update options:
 	-f string
@@ -13,7 +14,7 @@ update options:
 
 ##### List
 ```sh
-./labels list -r "<org/repo>"
+GITHUB_TOKEN="my github token" ./labels list -r "<org/repo>"
 
 # response
 [
@@ -32,7 +33,7 @@ update options:
 
 ##### Update (add if doesn't exist)
 ```sh
-./labels update -r "<org/repo>" -f "mylabels.json" -a
+GITHUB_TOKEN="my github token" ./labels update -r "<org/repo>" -f "mylabels.json" -a
 
 # response
 [invalid]: 200 OK
