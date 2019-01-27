@@ -146,11 +146,13 @@ func (gh *GithubClient) Update(repo string, file string, add bool) error {
 			body, err := json.Marshal(lbl)
 			if err != nil {
 				status = err.Error()
+				return
 			}
 
 			resp, err := gh.doRequest("PATCH", url, bytes.NewBuffer(body))
 			if err != nil {
 				status = err.Error()
+				return
 			}
 			resp.Body.Close()
 
@@ -159,12 +161,12 @@ func (gh *GithubClient) Update(repo string, file string, add bool) error {
 				resp, err = gh.doRequest("POST", url, bytes.NewBuffer(body))
 				if err != nil {
 					status = err.Error()
+					return
 				}
 				resp.Body.Close()
 			}
 
 			status = resp.Status
-
 		}(l)
 	}
 	wg.Wait()
